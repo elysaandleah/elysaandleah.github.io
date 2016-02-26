@@ -1,0 +1,106 @@
+* {
+  font-family: Raleway;
+}
+.main-img {
+  width: 672px;
+  height: auto;
+  display: block;
+  margin: 10em auto 0 auto;
+  text-align: center;
+  color: #333;
+}
+.header-txt {
+  height: auto;
+  width: auto;
+  max-width: 350px;
+}
+.person-title {
+  height: auto;
+  width: auto;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.margin-top {
+  margin-top: 10em;
+}
+.header-text {
+  height: auto;
+  width: 100%;
+  margin-top:1.5em;
+}
+/*
+.main-img {
+  height: 219px;
+  width: 350px;
+  background-image: url('C:/Users/steph/Documents/Elysa + Leah/media/elysaandleah.png');
+  background-size: cover;
+}
+.main-img:hover {
+  background-image: url('C:/Users/steph/Documents/Elysa + Leah/media/elysaandleah2.png');
+}
+*/
+.profile {
+  float: left;
+  display: inline-block;
+  margin-right: 4em;
+  min-width: 300px;
+  max-width: 600px;
+}
+.outter-container {
+  height: auto;
+  min-height: 5em;
+  width: 1400px;
+  margin: 0 auto;
+}
+@media screen and  (max-width: 1280px) {
+  .outter-container {
+    width: 600px;
+  }
+  .profile {
+    margin: 0 0 4em 0;
+  }
+}
+.art-profile {
+  min-width: 600px;
+}
+.art-profile img {
+  max-width: 600px;
+  width: auto;
+  height: auto;
+}
+
+#cf {
+  position:relative;
+  height:219px;
+  width:350px;
+  margin: 10em auto 0 auto;
+}
+
+#cf img {
+  position:absolute;
+  left:0;
+  opacity: 1;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+  height:219px;
+  width:350px;
+  margin:0 auto;
+}
+
+#cf img.top:hover {
+  opacity:0;
+}
+
+.mouse-active:hover {
+  cursor:pointer;
+}
+.person-contact {
+  height: auto;
+  width: 48% !important;
+  display: inline-block;
+}
+hr {
+  border-top: 5px solid #333;
+}
