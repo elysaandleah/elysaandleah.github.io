@@ -60,6 +60,15 @@
     margin: 0 0 4em 0;
   }
 }
+@media screen and (max-width: 675px) {
+  .mobile-img {
+    height:auto;
+    width: auto;
+    max-width: 100%;
+  }
+}
+
+
 .art-profile {
   min-width: 600px;
 }
