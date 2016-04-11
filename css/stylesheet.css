@@ -94,11 +94,11 @@
   width:350px;
   margin:0 auto;
 }
-
+/*
 #cf img.top:hover {
   opacity:0;
 }
-
+*/
 .mouse-active:hover {
   cursor:pointer;
 }
